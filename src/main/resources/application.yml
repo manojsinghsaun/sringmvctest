@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    gateway:
+      mvc:
+        routes:
+        - id: service1
+          uri: http://localhost:8081/
+          predicates:
+          - Path=/api/**         
