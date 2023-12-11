@@ -1,4 +1,4 @@
-package com.swissre;
+package com.test;
 
 
 import org.springframework.boot.SpringApplication;
